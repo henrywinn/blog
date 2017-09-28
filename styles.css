@@ -1,8 +1,49 @@
 body {
-    width: 800px;
-    margin: auto auto;
+    margin: 0;
 }
-
 img {
     max-width: 800px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.yt-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.yt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pano {
+    height: 600px !important;
+}
+
+p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pull-right {
+    float:right;
+}
+
+.margin-l-10px {
+    margin-left: 10px;
 }
